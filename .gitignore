@@ -1,0 +1,16 @@
+
+target/
+dbt_packages/
+logs/
+# dbt build artifacts
+target/
+dbt_packages/
+
+# credentials & local config
+profiles.yml
+.user.yml
+*.json
+
+# OS / Python
+__pycache__/
+.DS_Store
