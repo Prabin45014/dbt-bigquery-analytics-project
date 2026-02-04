@@ -4,7 +4,7 @@ Welcome to your new dbt project!
 
 
 
-\## Project Overview
+**## Project Overview**
 
 This project demonstrates an end-to-end analytics engineering workflow using "dbt" and "Google BigQuery".  
 
@@ -12,7 +12,7 @@ Raw CSV data is loaded into BigQuery, transformed using dbt into staging and ana
 
 
 
-\## 📌 Tech Stack
+**## 📌 Tech Stack**
 
 \- dbt Core
 
@@ -26,7 +26,7 @@ Raw CSV data is loaded into BigQuery, transformed using dbt into staging and ana
 
 
 
-\## Project Architecture
+**## Project Architecture**
 
 
 
@@ -48,7 +48,7 @@ The project follows a standard ELT (Extract, Load, Transform) approach:
 
 
 
-\## Dataset Structure in BigQuery
+**## Dataset Structure in BigQuery**
 
 
 
@@ -72,7 +72,7 @@ No transformations are applied at this layer.
 
 
 
-\### Staging Layer (Cleaned Data)
+**### Staging Layer (Cleaned Data)**
 
 Staging models clean and standardize raw data:
 
@@ -104,7 +104,7 @@ Staging models are reusable and easy to maintain.
 
 
 
-\### Analytics Layer (Business-Ready Data)
+**### Analytics Layer (Business-Ready Data)**
 
 Analytics models combine staging tables to answer business questions.
 
@@ -128,7 +128,7 @@ This layer is used for reporting and dashboards.
 
 
 
-\## 🗂 Data Architecture
+**## 🗂 Data Architecture**
 
 
 
@@ -162,7 +162,7 @@ Analytics Layer:
 
 
 
-\## 🔄 ELT Workflow
+**## 🔄 ELT Workflow**
 
 1\. CSV files loaded into BigQuery (raw layer)
 
@@ -176,7 +176,7 @@ Analytics Layer:
 
 
 
-\## ✅ Data Quality Checks
+**## ✅ Data Quality Checks**
 
 \- not\_null tests
 
@@ -186,7 +186,7 @@ Analytics Layer:
 
 
 
-\## 📊 Key Analytics Use Cases
+**## 📊 Key Analytics Use Cases**
 
 \- Revenue analysis
 
@@ -198,7 +198,7 @@ Analytics Layer:
 
 
 
-\## 📘 dbt Documentation
+**## 📘 dbt Documentation**
 
 Lineage and model documentation generated using:
 
@@ -210,23 +210,14 @@ dbt docs serve
 
 
 
-
-
-
-
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-<<<<<<< HEAD
+**Try running the following commands:**
 
 * dbt run
 * dbt test
 * dbt debug
 * dbt clean
 * dbt docs generate
-* # dbt docs serve
+* dbt docs serve
 
 
 
